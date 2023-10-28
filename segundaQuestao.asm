@@ -91,5 +91,4 @@ SENSOR_0
     MOVLW 0x31 ; W = 0x31 = 0011 0001
     MOVWF PORTB ; PORTB = W = 0x31 = 0 = 0011 0001
     GOTO LOOP ; volta para loop
-    
-	  END
+    END
