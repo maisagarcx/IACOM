@@ -23,7 +23,7 @@ PRIN_START
     BCF STATUS, RP0 ; bank 0 (bit clear file)
     CLRF PORTA ; inicializa PORTA limpando-a (clear file)
     BSF STATUS, RP0 ; bank 1 (bit set file)
-    BSF TRISA, RA1 : RA1 como entrada (bit set file)
+    BSF TRISA, RA1 ; RA1 como entrada (bit set file)
     
     BCF STATUS, RP0 ; bank 0 (bit clear file)
     CLRF PORTB ; inicializa PORTB limpando-a (clear file)
