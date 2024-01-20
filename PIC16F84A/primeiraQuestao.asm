@@ -82,7 +82,7 @@ WRITING
 
 ; logica para descobrir se VAR_F e um valor negativo ou positivo, considerando que ele esta em complemento de 2
 LESS_OR_MORE_THEN
-    BTFSC VAR_F,7 ; pula próxima linha caso o bit 7 de VAR_F == 0 (bit test, skip if clear)
+    BTFSC VAR_F, 7 ; pula próxima linha caso o bit 7 de VAR_F == 0 (bit test, skip if clear)
     GOTO NEGATIVE_OR_ZERO ; pula para NEGATIVE_OR_ZERO pois VAR_F < 0
     GOTO POSITIVE ; pula para POSITIVE pois VAR_F > 0
 
