@@ -7,3 +7,5 @@ width="120" align="right">
 </a>
 
 Seja bem-vindo! Este repósitorio contém códigos desenvolvidos, em Assembly e LADDER, para a disciplina DEEE0187.
+
+Divirta-se!
