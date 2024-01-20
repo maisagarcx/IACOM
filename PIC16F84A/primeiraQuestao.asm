@@ -53,8 +53,8 @@ PRIN_START
 ; inicio do loop de ler continuamente RA1, ou seja, VAR_D
 LOOP
     BTFSC PORTA, RA1 ; pula próxima linha caso RA1 == 0 (bit test, skip if clear)
-    GOTO VAR_D_1 ; pula para VAR_D_1 caso VAR_D == 1
-    GOTO VAR_D_0 ; pula para VAR_D_0 caso VAR_D == 0
+    GOTO VAR_D_1 ; pula para VAR_D_1 pois VAR_D == 1
+    GOTO VAR_D_0 ; pula para VAR_D_0 pois VAR_D == 0
 
 VAR_D_1
     MOVF VAR_C, W ; W = VAR_C = 0xFD = 1111 1101 = -3 (move file to worker)
